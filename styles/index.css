@@ -1,5 +1,10 @@
 *{
     margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
 }
 body{
     background-image: linear-gradient(to bottom, #f4EEE0, #393646 100%);
@@ -7,26 +12,42 @@ body{
 .container_nav{
     flex-wrap: wrap;
 }
+/* .container_nav > img{
+    display: flex;
+    margin: 15px 50px;
+    width: 100px;
+    height: 100px;
+} */
 .navbar{
     display: flex;
-    margin : 20px 0px 20px 0px;
-    gap: 35px;
-    justify-content: center;
+    margin : 15px 50px 15px 0px;
+    gap: 50px;
+    justify-content: end;
 }
 .nav{
     flex-flow: row wrap;
 }
+.nav > h2{
+    font-size: 19px;
+    font-weight: 550;   
+}
 .article > h2{
     text-align: center;
     font-size: 30px;
+    font-weight: 400;
 }
 pre{
     font-size: 20px;
+    font-weight: 550;
 }
 .button{
     text-align: center;
 }
+.article > h2{
+    font-size: 40px;
+}
 .article_button{
+    margin-top: 50px;
     background-color: #6D5D6E;
     border: 0;
     border-radius: 12px;
@@ -34,10 +55,52 @@ pre{
     height: 45px;
     font-weight: bold;
 }
-aside{
-    margin: 480px 60px 0px 870px;
+.article_button > a{
+    color: #f4EEE0;
+    text-decoration: none;
+}
+#laptop1{
+    position: absolute;
+    width: 382px;
+    height: 330px;
+    left: 71.7%;
+    top: 298px;
+    z-index: 1;
+}
+#svg1{
+    position: absolute;
+    top: 300px;
+    left: 85%;
+}
+#laptop2{
+    position: absolute;
+    width: 640px;
+    height: 450px;
+    top: 740px;
+    z-index: 1;
+}
+#svg2{
+    position: absolute;
+    top: 700px;
+}
+.aside{
+    margin: 480px 40px 0px 415px;
     text-align: justify;
     font-size: 20px;
+    margin-bottom: 100px;
+}
+.aside > button{
+    margin-top: 20px;
+    background-color: #6D5D6E;
+    border: 0;
+    border-radius: 12px;
+    width: 200px;
+    height: 45px;
+    font-weight: bold;
+}
+.aside > button > a{
+    text-decoration: none;
+    color : #f4EEE0
 }
 .our_product{
     margin-left: 30px;
@@ -52,10 +115,14 @@ aside{
     box-shadow: 4px 0px 30px;
     margin-right: 23px;
 }
-.our_product > a{
+.our_product > button{
     margin-left: 45px;
-    text-decoration: none;
     font-size: 23px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.our_product > button > a{
+    text-decoration: none;
     color: #f4EEE0;
 }
 .footer{
@@ -75,5 +142,9 @@ aside{
 .article_button:hover{
     width: 125px;
     height: 50px;
-    transition: 0.2s;
+    transition: 0.15s;
 }
+/* .our_product >  button > a:hover{
+    color: #807e7f;
+    transition: 0.2s;
+} */
