@@ -2,9 +2,7 @@
     margin: 0;
 }
 body{
-    background-image: linear-gradient(to bottom, #f4EEE0, #f4EEE0, 34%);
     background-image: linear-gradient(to bottom, #f4EEE0, #393646 100%);
-
 }
 .container_nav{
     flex-wrap: wrap;
@@ -34,14 +32,18 @@ pre{
     border-radius: 12px;
     width: 120px;
     height: 45px;
+    font-weight: bold;
 }
 aside{
-    margin: 480px 60px 0px 1100px;
+    margin: 480px 60px 0px 870px;
     text-align: justify;
     font-size: 20px;
 }
 .our_product{
     margin-left: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
 }
 .our_product > img{
     width: 260px;
@@ -49,6 +51,12 @@ aside{
     border-radius: 20px;
     box-shadow: 4px 0px 30px;
     margin-right: 23px;
+}
+.our_product > a{
+    margin-left: 45px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #f4EEE0;
 }
 .footer{
     background-color: #393646;
@@ -63,4 +71,9 @@ aside{
 .footer > h3{
     padding-left: 20px;
     padding-top: 220px;
+}
+.article_button:hover{
+    width: 125px;
+    height: 50px;
+    transition: 0.2s;
 }
