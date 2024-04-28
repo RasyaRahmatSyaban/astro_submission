@@ -7,7 +7,7 @@
     "slnt" 0;
 }
 body{
-    background-color: #f4EEE0;
+    background-color: #ffffff;
 }
 div{
     z-index: 99;
@@ -19,7 +19,7 @@ div{
     display: flex;
     margin : 15px 50px 15px 0px;
     gap: 50px;
-    justify-content: end;
+    justify-content: center;
 }
 .nav{
     flex-flow: row wrap;
@@ -27,7 +27,7 @@ div{
 .nav > a{
     color: black;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 550;  
 }
 
@@ -39,18 +39,20 @@ div{
 
 .slogan > p{
     text-align: center;
+    margin-top: -35px;
     margin-left: 25%; 
     margin-right: 25%; 
 }
 
   .kotakbesar {
+    margin-top: 88px;
     width: 100%;
     height: 1200px;
     background-image: linear-gradient(to bottom, #6D5D6E 60%, #393646 93%);
     display: flex;
     flex-direction: column;
-    border-top-right-radius: 15%;
-    border-top-left-radius: 15%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
   }
 
   .baris {
@@ -60,12 +62,12 @@ div{
 .kotak1, .kotak2, .kotak3,
 .kotak4, .kotak5, .kotak6,
 .kotak7, .kotak8, .kotak9 {
-  flex: 1;
+  flex: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 50px;
+  width: 20px;
   height: 220px;
   border-radius: 50px;
   background-color: #ffffff;
@@ -87,11 +89,13 @@ div{
 display: block;
 font-weight: bold;
 padding-bottom: 8px;
+color: #ffffff;
 
 }
 
 .harga {
   font-weight: bold;
+  color: #ffffff;
 }
 
 footer {
@@ -101,16 +105,17 @@ footer {
 
 .footer-top {
   display: flex;
-  text-align: center;
+  margin-left: 200px;
   justify-content: space-around;
 }
 
-.logo img {
-  max-width: 80px;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px ;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+.top{
+  margin-bottom: 11px;
+}
+
+.a {
+  margin-top: 5px;
+  margin-left: -40px;
 }
 
 .follow-us img {
@@ -118,6 +123,12 @@ footer {
   border-top-left-radius: 35px ;
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
+  height: 50px;
+  width: 50px;
+}
+
+.contact-info {
+  margin-left: -350px;
 }
 
 .navigation, .contact-info, .follow-us {
@@ -126,7 +137,6 @@ footer {
 
 .navigation ul, .contact-info ul, .follow-us ul {
   list-style: none;
-  padding: 10px;
 }
 
 .footer-bottom {
@@ -141,7 +151,7 @@ footer {
 }
 
 .line {
-  margin-top: 110px;
+  margin-top: 140px;
 }
 
 .line hr {
