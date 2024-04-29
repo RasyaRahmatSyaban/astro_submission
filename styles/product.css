@@ -161,3 +161,16 @@ footer {
 .line hr {
   border-top: 1px solid #fff;
 }
+.nav > a::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px; /* Ketebalan garis bawah */
+  bottom: 0;
+  left: 0;
+  background-color: #393646; /* Warna garis bawah */
+  transition: width 0.2s ease-in-out; /* Transisi lebar garis */
+}
+.nav > a:hover::after{
+  width: 100%;
+}
