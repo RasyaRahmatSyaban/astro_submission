@@ -8,7 +8,7 @@
     color:#393646;
 }
 body{
-    background-image: #ffffff;
+    background-image: linear-gradient(#f4EEE0 34%, #393646 96%);
 }
 .container_nav{
     flex-wrap: wrap;
