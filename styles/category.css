@@ -100,11 +100,13 @@ footer {
   }
   
   .top{
+    color: #ffffff;
     margin-top: 70px;
     margin-bottom: 11px;
   }
   
   .a {
+    color: #ffffff;
     margin-top: 5px;
     margin-left: -40px;
   }
@@ -136,6 +138,7 @@ footer {
   }
   
   .footer-bottom h2, .footer-bottom h3 {
+    color: #ffffff;
     margin: 0;
     font-weight: lighter;
     font-size: small;

@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+body {
+  color: #393646;
+}
+
+.container_nav {
+  flex-wrap: wrap;
+}
+
+.navbar {
+  display: flex;
+  margin: 15px 50px 15px 0px;
+  gap: 50px;
+  justify-content: center;
+}
+
+.nav {
+  flex-flow: row wrap;
+}
+
+.nav > a {
+  color: #393646;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+footer {
+  background-color: #393646;
+  color: #fff;
+}
+
+.footer-top {
+  margin-top: 100px;
+  display: flex;
+  margin-left: 200px;
+  justify-content: space-around;
+}
+
+.top {
+  margin-top: 70px;
+  color: #ffffff;
+  margin-bottom: 11px;
+}
+
+.a {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-left: -40px;
+}
+
+.follow-us img {
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  height: 50px;
+  width: 50px;
+}
+
+.contact-info {
+  margin-left: -350px;
+}
+
+.navigation, .contact-info, .follow-us {
+  flex: 0.3;
+}
+
+.navigation ul, .contact-info ul, .follow-us ul {
+  list-style: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-bottom h2, .footer-bottom h3 {
+  color: #ffffff;
+  margin: 0;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.line {
+  margin-top: 140px;
+}
+
+.line hr {
+  border-top: 1px solid #fff;
+}
+
+header {
+  background-color: #393646;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.member-info {
+  margin-top: 10px;
+}
