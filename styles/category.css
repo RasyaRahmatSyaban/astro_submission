@@ -61,10 +61,13 @@ div{
     height: 300px;
 }
 .container2{
-    display: flex;
+    display: grid;
     margin-top: 40px;
     justify-content: space-evenly;
     margin-bottom: 100px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10, 1fr);
 }
 .cont2{
     border-radius: 30px;
@@ -87,6 +90,27 @@ div{
     margin-bottom: 150px;
 }
 
+.slide_button{
+    position: absolute;
+    height: 50px;
+    width: 50px; 
+    color: #f4EEE0;
+    border: none;
+    outline: none;
+    background-color: #393646;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#prev{
+  margin-top: 30px;
+  left: 50px;
+}
+#next{
+  margin-top: -80px;
+  right: 50px;
+}
+
 footer {
     background-color: #393646;
     color: #fff;
@@ -100,13 +124,11 @@ footer {
   }
   
   .top{
-    color: #ffffff;
     margin-top: 70px;
     margin-bottom: 11px;
   }
   
   .a {
-    color: #ffffff;
     margin-top: 5px;
     margin-left: -40px;
   }
@@ -138,7 +160,6 @@ footer {
   }
   
   .footer-bottom h2, .footer-bottom h3 {
-    color: #ffffff;
     margin: 0;
     font-weight: lighter;
     font-size: small;
@@ -178,4 +199,7 @@ footer {
     position: absolute;
     top: 1500px;
     left: 200px
+}
+.slide_button:hover{
+  background-color: #575656;
 }
