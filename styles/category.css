@@ -26,7 +26,8 @@ div{
     flex-flow: row wrap;
 }
 .nav > a{
-    color: black;
+    position: relative;
+    color: #393646;
     text-decoration: none;
     font-size: 15px;
     font-weight: 550;   
