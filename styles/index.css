@@ -7,7 +7,7 @@
     "slnt" 0;
 }
 body{
-    background-image: #ffffff;
+    background-image: linear-gradient(#f4EEE0 64%,#393646 100% );
 }
 .container_nav{
     flex-wrap: wrap;
