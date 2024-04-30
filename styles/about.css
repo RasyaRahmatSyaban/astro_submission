@@ -34,6 +34,10 @@ body {
   font-weight: 550;
 }
 
+.about {
+  text-align: center;
+}
+
 footer {
   background-color: #393646;
   color: #fff;
@@ -47,7 +51,7 @@ footer {
 }
 
 .top {
-  margin-top: 70px;
+  margin-top: 50px;
   color: #ffffff;
   margin-bottom: 11px;
 }
@@ -92,7 +96,7 @@ footer {
 }
 
 .line {
-  margin-top: 140px;
+  margin-top: 100px;
 }
 
 .line hr {
