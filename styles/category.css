@@ -125,11 +125,13 @@ footer {
   }
   
   .top{
+    color: #f4EEE0;
     margin-top: 70px;
     margin-bottom: 11px;
   }
   
   .a {
+    color: #f4EEE0;
     margin-top: 5px;
     margin-left: -40px;
   }
@@ -162,6 +164,7 @@ footer {
   
   .footer-bottom h2, .footer-bottom h3 {
     margin: 0;
+    color: #f4EEE0;
     font-weight: lighter;
     font-size: small;
   }

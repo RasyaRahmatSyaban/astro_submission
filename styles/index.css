@@ -200,8 +200,9 @@ footer {
     transition: 0.2s;
     color: #393646;
 }
-.aside_button:hover{
-    background-color: #998ca0;
+.aside_button:hover{     
+    color: #393646;
+    background-color: #bebdb8;
     border: 2px solid #393646;
     transition: 0.2s;
 }
