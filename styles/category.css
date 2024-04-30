@@ -8,7 +8,7 @@
     color: #393646;
 }
 body{
-  background-image: linear-gradient(#f4EEE0 34%, #393646 96%);
+  background-image:#f4EEE0;
 }
 div{
     z-index: 99;
@@ -179,7 +179,6 @@ footer {
 
 #svg1{
     position: absolute;
-    /* left: 1253px; */
     right: 0;
     top: 80px;
     z-index: 1;
@@ -197,12 +196,12 @@ footer {
     position: absolute;
     top: 1200px;
     right: 0;
-    /* left: 1066px; */
 }
 #svg5{
     position: absolute;
     top: 1500px;
-    left: 200px
+    left: 200px;
+    z-index: -1;
 }
 .nav > a::after{
   content: '';
