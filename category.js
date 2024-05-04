@@ -1,17 +1,19 @@
-const scrollContainer = document.querySelector(".container2 .cont2");
-let prevButton = document.getElementById("prev"); 
-let nextButton = document.getElementById("next"); 
+const scrollContainer = document.querySelectorAll(".container2 .cont2");
+let prevButton = document.querySelectorAll(".prev"); 
+let nextButton = document.querySelectorAll(".next"); 
 
-scrollContainer.addEventListener("wheel", (evt) =>{
+
+for(let i = 0; i < scrollContainer.length; i++){
+scrollContainer[i].addEventListener("wheel", (evt) =>{
     evt.preventDefault();
-    scrollContainer.scrollLeft += evt.deltaY;
+    scrollContainer[i].scrollLeft += evt.deltaY;
 });
 
-nextButton.addEventListener("click", ()=>{
-    scrollContainer.style.scrollBehavior = "smooth";
-    scrollContainer.scrollLeft += 1200;
+nextButton[i].addEventListener("click", ()=>{
+    scrollContainer[i].style.scrollBehavior = "smooth";
+    scrollContainer[i].scrollLeft += 1200;
 })
-prevButton.addEventListener("click", ()=>{
-    scrollContainer.style.scrollBehavior = "smooth";
-    scrollContainer.scrollLeft -= 1200;
-})
+prevButton[0].addEventListener("click", ()=>{
+    scrollContainer[i].style.scrollBehavior = "smooth";
+    scrollContainer[i].scrollLeft -= 1200;
+})}
