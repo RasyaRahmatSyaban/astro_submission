@@ -1,14 +1,17 @@
-const initSlider = () =>{
-    const imagelist = document.querySelector(".img_cont");
-    const slideButtons = document.querySelectorAll(".slide_button");
+const scrollContainer = document.querySelector(".container2 .cont2");
+let prevButton = document.getElementById("prev"); 
+let nextButton = document.getElementById("next"); 
 
-    slideButtons.forEach(button=>{
-        button.addEventListener("click", ()=>{
-            const direction = button.id === "prev" ? -1 : 1;
-            const scrollAmount = imagelist.clientWidth * direction;
-            imagelist.scrollBy({left : scrollAmount, behavior: "smooth"});
-        });
-    });
-}
+scrollContainer.addEventListener("wheel", (evt) =>{
+    evt.preventDefault();
+    scrollContainer.scrollLeft += evt.deltaY;
+});
 
-window.addEventListener("load", initSlider);
+nextButton.addEventListener("click", ()=>{
+    scrollContainer.style.scrollBehavior = "smooth";
+    scrollContainer.scrollLeft += 1200;
+})
+prevButton.addEventListener("click", ()=>{
+    scrollContainer.style.scrollBehavior = "smooth";
+    scrollContainer.scrollLeft -= 1200;
+})
