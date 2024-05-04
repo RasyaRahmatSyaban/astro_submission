@@ -166,3 +166,44 @@ main {
 .nav > a:hover::after{
   width: 100%;
 }
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px auto;
+  }
+
+  .nav {
+    margin: 0 0;
+  }
+
+  .nav > a {
+    font-size: 2vmax; 
+  }
+
+  .about {
+    font-size: 2vmax;
+    text-align: center;
+  }
+
+  .about-section {
+    font-size: 1.7vmax;
+  }
+
+  .footer-top {
+    margin: 1vmax;
+    padding: 1vmax;
+    font-size: 2vmax;
+  }
+
+  .follow-us img {
+    width: 2.5vmax;
+    height: 2.5vmax;
+  }
+
+  .team-member img {
+    width: 15vmax;
+    height: 15vmax;
+  }
+}

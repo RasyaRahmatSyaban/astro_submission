@@ -175,3 +175,63 @@ footer {
 .nav > a:hover::after{
   width: 100%;
 }
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px auto;
+  }
+
+  .nav > a {
+    font-size: 2vmax; 
+  }
+
+  .slogan > h1 {
+    font-size: 5vmax; 
+  }
+
+  .slogan > p {
+    font-size: 2vmax; 
+    margin: 0 10%; 
+  }
+
+  .kotakbesar {
+    border-radius: 10vmax;
+  }
+
+  .kotak1, .kotak2, .kotak3, .kotak4, .kotak5, .kotak6, .kotak7, .kotak8, .kotak9 {
+    width: 2vmax; /* Atur lebar kotak agar sesuai dengan layar yang lebih kecil */
+    height: 18vmax;
+    margin: 2vmax ; /* Atur margin agar terlihat lebih baik */
+    margin-top: 13vmax;
+    border-radius: 7vmax;
+  }
+
+  .kotak1 img, .kotak2 img, .kotak3 img, .kotak4 img, .kotak5 img, .kotak6 img, .kotak7 img, .kotak8 img, .kotak9 img {
+    max-width: 15vmax;
+    max-height: 15vmax;
+    margin-top: 13vmax; /* Atur margin atas agar terlihat lebih baik */
+  }
+
+  .namalaptop, .harga {
+    font-size: 2vmax; /* Mengatur ukuran font nama laptop dan harga */
+    text-align: center; /* Pusatkan teks */
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1vmax auto; 
+    padding: 1vmax; 
+    font-size: 2vmax; 
+  }
+
+  .follow-us img {
+    width: 2.5vmax;
+    height: 2.5vmax;
+  }
+
+}
