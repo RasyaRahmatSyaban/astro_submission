@@ -220,7 +220,7 @@ footer {
     margin-top: 13vmax; /* Atur margin atas agar terlihat lebih baik */
   }
 
-  .namalaptop, .harga {
+  .namalaptop {
     font-size: 2vmax; /* Mengatur ukuran font nama laptop dan harga */
     text-align: center; /* Pusatkan teks */
   }
