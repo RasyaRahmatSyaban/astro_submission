@@ -13,7 +13,7 @@ nextButton[i].addEventListener("click", ()=>{
     scrollContainer[i].style.scrollBehavior = "smooth";
     scrollContainer[i].scrollLeft += 1200;
 })
-prevButton[0].addEventListener("click", ()=>{
+prevButton[i].addEventListener("click", ()=>{
     scrollContainer[i].style.scrollBehavior = "smooth";
     scrollContainer[i].scrollLeft -= 1200;
 })}
