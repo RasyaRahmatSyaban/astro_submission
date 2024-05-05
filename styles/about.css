@@ -115,7 +115,7 @@ p {
   font-weight: lighter;
   font-size: 1vmax;
 }
-.footer-bottom >div > img{
+.footer-bottom >div > a > img{
   width: 5vmax;
   border-radius: 50%;
 }

@@ -169,7 +169,7 @@ li > a {
 .line hr {
   border-top: 1px solid #fff;
 }
-.footer-bottom >div > img{
+.footer-bottom >div > a > img{
   width: 5vmax;
   border-radius: 50%;
 }
