@@ -26,24 +26,21 @@ body{
     position: relative;
     color: black;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1.1vmax;
     font-weight: 550;  
 }
 .article > h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 3vmax;
     font-weight: 400;
 }
 pre{
-    font-size: 20px;
+    font-size: 1.4vmax;
     font-weight: 550;
 }
 .button{
     text-align: center;
     margin-top: 50px;
-}
-.article > h2{
-    font-size: 40px;
 }
 .article_button{
     padding: 14px;
@@ -51,15 +48,15 @@ pre{
     font-weight: 650;
     border: 0;
     border-radius: 12px;
-    width: 120px;
-    height: 45px;
+    width: 10vmax;
+    height: 4vmax;
     color: #f4EEE0;
     text-decoration: none;
 }
 #laptop1{
     position: absolute;
-    width: 382px;
-    height: 330px;
+    width: 27.8vmax;
+    height: 25vmax;
     left: 71.7%;
     top: 298px;
     filter: brightness(50%);
@@ -67,6 +64,8 @@ pre{
     z-index: 1;
 }
 #svg1{
+    width:14.5vmax; 
+    height:24vmax;
     position: absolute;
     top: 300px;
     left: 85%;
@@ -74,14 +73,16 @@ pre{
 }
 #laptop2{
     position: absolute;
-    width: 600px;
-    height: 420px;
+    width: 45vmax;
+    height: 30vmax;
     top: 740px;
     filter: brightness(50%);
     opacity: 85%;
     z-index: 1;
 }
 #svg2{
+    width:25vmax;
+    height:37vmax;
     position: absolute;
     top: 700px;
     opacity: 95%;
@@ -89,11 +90,11 @@ pre{
 .aside{
     margin: 440px 40px 0px 815px;
     text-align: justify;
-    font-size: 17px;
+    font-size: 1.3vmax;
     margin-bottom: 100px;
 }
 .aside_button{
-    font-size: 17px;
+    font-size: 1.3vmax;
     font-weight: 650;
     padding: 12px 23px;
     background-color: #6D5D6E;
@@ -113,8 +114,8 @@ pre{
     align-items: center;
 }
 .our_product > img{
-    width: 260px;
-    height: 250px;
+    width: 18vmax;
+    height: 16vmax;
     border-radius: 20px;
     box-shadow: 4px 0px 30px;
     margin-right: 23px;
@@ -122,7 +123,7 @@ pre{
 .our_product > a{
     position: relative;
     margin-left: 45px;
-    font-size: 20px;
+    font-size: 1.7vmax;
     background-color: transparent;
     border-color: transparent;
     text-decoration: none;
@@ -138,8 +139,8 @@ footer {
 .footer-top {
     margin-top: 80px;
   display: flex;
-  margin-left: 200px;
   justify-content: space-around;
+  margin-left: 40px;
 }
 
 .top{
@@ -147,20 +148,17 @@ footer {
     margin-top: 70px;
   margin-bottom: 11px;
 }
-
-.a {
+li > a {
     color: #ffffff;
   margin-top: 5px;
   margin-left: -40px;
+  text-decoration: none;
 }
 
 .follow-us img {
-  border-top-right-radius: 35px;
-  border-top-left-radius: 35px ;
-  border-bottom-left-radius: 35px;
-  border-bottom-right-radius: 35px;
-  height: 50px;
-  width: 50px;
+  border-radius: 35px;
+  height: 4vmax;
+  width: 4vmax;
 }
 
 .contact-info {
@@ -176,15 +174,18 @@ footer {
 }
 
 .footer-bottom {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
+  text-align: center;
+  align-items: center;
 }
 
 .footer-bottom h2, .footer-bottom h3 {
     color: #ffffff;
   margin: 0;
   font-weight: lighter;
-  font-size: small;
+  font-size: 1vmax;
 }
 
 .line {
@@ -193,6 +194,10 @@ footer {
 
 .line hr {
   border-top: 1px solid #fff;
+}
+.footer-bottom >div > img{
+    width: 5vmax;
+    border-radius: 50%;
 }
 .article_button:hover{
     background-color: #f4EEE0;
@@ -231,4 +236,7 @@ footer {
 }
 .nav > a:hover::after{
     width: 100%;
+}
+li > a:hover{
+    color: black;
 }

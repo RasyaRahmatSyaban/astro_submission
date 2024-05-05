@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 body{
-background-image:#f4EEE0;
+background-color:#f4EEE0;
 }
 div{
   z-index: 99;
@@ -41,7 +41,7 @@ div{
   position: absolute;
   right: 72px;
   border-radius: 30px;
-  background-color: #FFF3E3;
+  background-color: #ffffff;
   width: 330px;
   height: 170px;
   align-content: center;
@@ -72,11 +72,9 @@ div{
 .cont2{
 display: flex;
   border-radius: 30px;
-  /* gap: 30px; */
-  background-color: #FFF3E3;
+  background-color: #ffffff;
   width: 1200px;
   height: 150px;
-  /* align-content: center; */
   overflow-x: scroll;
 }
 .cont2 > div{
@@ -127,30 +125,27 @@ footer {
 
 .footer-top {
   margin-top: 80px;
-  display: flex;
-  margin-left: 200px;
-  justify-content: space-around;
+display: flex;
+justify-content: space-around;
+margin-left: 40px;
 }
 
 .top{
-  color: #f4EEE0;
-  margin-top: 70px;
+    color: #ffffff;
+    margin-top: 70px;
   margin-bottom: 11px;
 }
-
-.a {
-  color: #f4EEE0;
+li > a {
+    color: #ffffff;
   margin-top: 5px;
   margin-left: -40px;
+  text-decoration: none;
 }
 
 .follow-us img {
-  border-top-right-radius: 35px;
-  border-top-left-radius: 35px ;
-  border-bottom-left-radius: 35px;
-  border-bottom-right-radius: 35px;
-  height: 50px;
-  width: 50px;
+  border-radius: 35px;
+  height: 4vmax;
+  width: 4vmax;
 }
 
 .contact-info {
@@ -166,15 +161,18 @@ footer {
 }
 
 .footer-bottom {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
+  text-align: center;
+  align-items: center;
 }
 
 .footer-bottom h2, .footer-bottom h3 {
+    color: #ffffff;
   margin: 0;
-  color: #f4EEE0;
   font-weight: lighter;
-  font-size: small;
+  font-size: 1vmax;
 }
 
 .line {
@@ -184,7 +182,10 @@ footer {
 .line hr {
   border-top: 1px solid #fff;
 }
-
+.footer-bottom >div > img{
+  width: 5vmax;
+  border-radius: 50%;
+}
 #svg1{
   position: absolute;
   right: 0;
@@ -229,4 +230,7 @@ background-color: #575656;
 }
 .cont2:hover{
 cursor: pointer;
+}
+li > a:hover{
+  color: black;
 }
